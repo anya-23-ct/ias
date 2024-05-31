@@ -1,0 +1,10 @@
+To collect roi coordinates and roi masks, run collect_coords_and_mask
+These have been saved from my initial roi collection
+To train, please create folder 'training_images', place training images there, and then
+run generate_training_set, then fit_single_gaussian, then distance_training, and finally generate_lookup_table
+
+To test
+Please place test images into the 'test_images' folder
+Then please run 'python master.py' from the terminal
+Results will be in results.txt, and output images with bounding box will be generated and saved as .png 
+in the main folder
